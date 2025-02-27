@@ -34,6 +34,11 @@ body {
 
 }
 
+#keys button:last-child {
+    border: 1px solid red;
+    grid-column: 4;
+}
+
 button {
     width: 100px;
     height: 100px;
@@ -64,4 +69,17 @@ button:active {
 
 .operator-btn:active {
     background-color: hsl(35, 100%, 75%)
+}
+
+
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+.dark-mode button {
+    background-color: gray;
+    color: white;
 }

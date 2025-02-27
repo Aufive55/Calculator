@@ -13,8 +13,12 @@ function calculate() {
     try {
         display.value = eval(display.value)
     }
-    catch(error){
+    catch (error) {
         display.value = "Error"
     }
 
+}
+
+function changeStyle() {
+    document.getElementById("calculator").classList.toggle("dark-mode");
 }
